@@ -1,0 +1,30 @@
+# Language code to full name mapping for translation prompts
+# Based on ToTheMoon supported languages
+
+languages:
+  # Core languages (source & reference)
+  en: English
+  ru: Russian
+  
+  # European languages
+  bg: Bulgarian
+  nl: Dutch
+  fr: French
+  de: German
+  pl: Polish
+  pt: Portuguese
+  pt-br: Portuguese (Brazil)
+  es: Spanish
+  tr: Turkish
+  uk: Ukrainian
+  
+  # Asian languages
+  zh-Hans: Chinese (Simplified)
+  hi: Hindi
+  id: Indonesian
+  ja: Japanese
+  ko: Korean
+  ms: Malay
+  tl: Tagalog
+  th: Thai
+  vi: Vietnamese

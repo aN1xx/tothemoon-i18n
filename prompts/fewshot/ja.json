@@ -1,0 +1,32 @@
+[
+  {
+    "key": "common.instrumentSelect:tabs.favorites",
+    "en": "Favorites",
+    "target": "お気に入り"
+  },
+  {
+    "key": "common.verification:required.message",
+    "en": "You need to pass verification",
+    "target": "本人確認が必要です"
+  },
+  {
+    "key": "common.verification:required.action",
+    "en": "Pass verification",
+    "target": "本人確認を完了する"
+  },
+  {
+    "key": "common.faq:title",
+    "en": "Frequently Asked <0>Questions</0>",
+    "target": "よくある<0>質問</0>"
+  },
+  {
+    "key": "pages.earn:banners.increasedApyRate.description",
+    "en": "First 15 days",
+    "target": "最初の15日間"
+  },
+  {
+    "key": "pages.earn:form.acceptTnc.label",
+    "en": "Agree with <0>Savings T&Cs</0>",
+    "target": "<0>貯蓄の利用規約</0>に同意する"
+  }
+]

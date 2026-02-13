@@ -1,0 +1,32 @@
+[
+  {
+    "key": "common.instrumentSelect:tabs.favorites",
+    "en": "Favorites",
+    "target": "รายการโปรด"
+  },
+  {
+    "key": "common.verification:required.message",
+    "en": "You need to pass verification",
+    "target": "คุณต้องผ่านการยืนยันตัวตน"
+  },
+  {
+    "key": "common.verification:required.action",
+    "en": "Pass verification",
+    "target": "ผ่านการยืนยันตัวตน"
+  },
+  {
+    "key": "common.faq:title",
+    "en": "Frequently Asked <0>Questions</0>",
+    "target": "คำถามที่พบบ่อย <0>คำถาม</0>"
+  },
+  {
+    "key": "pages.earn:banners.increasedApyRate.description",
+    "en": "First 15 days",
+    "target": "15 วันแรก"
+  },
+  {
+    "key": "pages.earn:form.acceptTnc.label",
+    "en": "Agree with <0>Savings T&Cs</0>",
+    "target": "ยอมรับ <0>ข้อกำหนดและเงื่อนไขการออม</0>"
+  }
+]

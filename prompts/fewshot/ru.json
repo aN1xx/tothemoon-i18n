@@ -1,0 +1,27 @@
+[
+  {
+    "key": "common.modal:actions.next",
+    "en": "Next",
+    "target": "Далее"
+  },
+  {
+    "key": "common.modal:actions.cancel",
+    "en": "Cancel",
+    "target": "Отменить"
+  },
+  {
+    "key": "common.orderTables:order.type.take_profit_limit",
+    "en": "Take profit limit",
+    "target": "Тейк-профит лимит"
+  },
+  {
+    "key": "pages.landing:benefits.support.title",
+    "en": "24/7 multilingual support",
+    "target": "Круглосуточная поддержка на всех языках"
+  },
+  {
+    "key": "common.error:VERIFICATION_REQUIRED.message",
+    "en": "Complete verification",
+    "target": "Завершите верификацию"
+  }
+]

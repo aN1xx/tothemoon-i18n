@@ -1,0 +1,32 @@
+[
+  {
+    "key": "common.instrumentSelect:tabs.favorites",
+    "en": "Favorites",
+    "target": "Favoritos"
+  },
+  {
+    "key": "common.verification:required.message",
+    "en": "You need to pass verification",
+    "target": "Você precisa concluir a verificação"
+  },
+  {
+    "key": "common.verification:required.action",
+    "en": "Pass verification",
+    "target": "Concluir verificação"
+  },
+  {
+    "key": "common.faq:title",
+    "en": "Frequently Asked <0>Questions</0>",
+    "target": "Perguntas <0>Frequentes</0>"
+  },
+  {
+    "key": "pages.earn:banners.increasedApyRate.description",
+    "en": "First 15 days",
+    "target": "Primeiros 15 dias"
+  },
+  {
+    "key": "pages.earn:form.acceptTnc.label",
+    "en": "Agree with <0>Savings T&Cs</0>",
+    "target": "Concordo com os <0>Termos e Condições de Poupança</0>"
+  }
+]

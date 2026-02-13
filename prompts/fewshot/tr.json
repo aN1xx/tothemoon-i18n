@@ -1,0 +1,32 @@
+[
+  {
+    "key": "common.instrumentSelect:tabs.favorites",
+    "en": "Favorites",
+    "target": "Favoriler"
+  },
+  {
+    "key": "common.verification:required.message",
+    "en": "You need to pass verification",
+    "target": "Doğrulamayı geçmeniz gerekiyor"
+  },
+  {
+    "key": "common.verification:required.action",
+    "en": "Pass verification",
+    "target": "Doğrulamayı geç"
+  },
+  {
+    "key": "common.faq:title",
+    "en": "Frequently Asked <0>Questions</0>",
+    "target": "Sıkça Sorulan <0>Sorular</0>"
+  },
+  {
+    "key": "pages.earn:form.acceptTnc.label",
+    "en": "Agree with <0>Savings T&Cs</0>",
+    "target": "<0>Tasarruf Şartları ve Koşulları</0> ile kabul ediyorum"
+  },
+  {
+    "key": "common.layout:footer.copyright",
+    "en": "© Tothemoon 2025. All rights reserved.",
+    "target": "© Tothemoon 2025. Tüm hakları saklıdır."
+  }
+]

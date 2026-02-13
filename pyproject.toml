@@ -1,0 +1,96 @@
+[tool.poetry]
+name = "tothemoon-i18n"
+version = "0.1.0"
+description = "CLI for batch translating ToTheMoon UI JSON with context-aware prompts"
+authors = ["Sanzhar Makhmut"]
+license = "MIT"
+readme = "README.md"
+packages = [{ include = "tools" }]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+openai = ">=1.12.0"
+pyyaml = ">=6.0"
+tqdm = ">=4.66"
+python-dotenv = ">=1.0"
+
+[tool.poetry.group.dev.dependencies]
+ruff = ">=0.6.5"
+mypy = ">=1.11.2"
+types-PyYAML = ">=6.0.12"
+types-tqdm = ">=4.66.0.20240417"
+pytest = ">=8.0.0"
+pytest-cov = ">=4.1.0"
+pytest-mock = ">=3.12.0"
+
+[tool.ruff]
+line-length = 100
+src = ["tools"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "N", "PL"]
+ignore = ["E203"]
+
+[tool.ruff.format]
+quote-style = "double"
+indent-style = "space"
+
+[tool.mypy]
+python_version = "3.11"
+warn_unused_configs = true
+warn_unused_ignores = true
+warn_return_any = true
+warn_redundant_casts = true
+warn_unreachable = false
+strict_optional = true
+pretty = true
+show_column_numbers = true
+show_error_context = true
+namespace_packages = true
+
+[[tool.mypy.overrides]]
+module = "openai.*"
+ignore_missing_imports = true
+
+[[tool.mypy.overrides]]
+module = "tqdm.*"
+ignore_missing_imports = true
+
+[[tool.mypy.overrides]]
+module = "yaml"
+ignore_missing_imports = true
+
+[[tool.mypy.overrides]]
+module = "yaml.*"
+ignore_missing_imports = true
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+python_classes = ["Test*"]
+python_functions = ["test_*"]
+addopts = [
+    "-v",
+    "--strict-markers",
+    "--tb=short",
+    "--cov=tools",
+    "--cov-report=term-missing",
+    "--cov-report=html",
+]
+
+[tool.coverage.run]
+source = ["tools"]
+omit = ["tools/__pycache__/*"]
+
+[tool.coverage.report]
+exclude_lines = [
+    "pragma: no cover",
+    "if TYPE_CHECKING:",
+    "if __name__ == .__main__.:",
+    "raise NotImplementedError",
+    "@abstractmethod",
+]
+
+[build-system]
+requires = ["poetry-core>=1.9.0"]
+build-backend = "poetry.core.masonry.api"

@@ -1,0 +1,24 @@
+{
+  "ru": {
+    "common.modal:actions.next": {
+      "en": "Next",
+      "ru": "Далее"
+    },
+    "common.modal:actions.cancel": {
+      "en": "Cancel",
+      "ru": "Отменить"
+    },
+    "common.orderTables:order.type.take_profit_limit": {
+      "en": "Take profit limit",
+      "ru": "Тейк-профит лимит"
+    },
+    "pages.landing:benefits.support.title": {
+      "en": "24/7 multilingual support",
+      "ru": "Круглосуточная поддержка на всех языках"
+    },
+    "common.error:VERIFICATION_REQUIRED.message": {
+      "en": "Complete verification",
+      "ru": "Завершите верификацию"
+    }
+  }
+}

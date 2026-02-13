@@ -1,0 +1,53 @@
+# Base glossary - English terms that should be translated consistently across all languages
+# This file is used by bootstrap-locale to generate language-specific glossaries
+
+# Navigation & Actions
+Next: Next
+Back: Back
+Save: Save
+Cancel: Cancel
+Submit: Submit
+Close: Close
+Continue: Continue
+Finish: Finish
+Sign in: Sign in
+Sign up: Sign up
+
+# Trading terms
+Buy: Buy
+Sell: Sell
+Order: Order
+Orders: Orders
+Position: Position
+Positions: Positions
+Long: Long
+Short: Short
+Market: Market
+Limit: Limit
+Stop market: Stop market
+Stop limit: Stop limit
+Stop loss: Stop loss
+Take profit: Take profit
+Take profit limit: Take profit limit
+Trailing stop: Trailing stop
+Leverage: Leverage
+Margin: Margin
+
+# Platform features
+Wallet: Wallet
+Spot: Spot
+Futures: Futures
+Earn: Earn
+Staking: Staking
+Custodial: Custodial
+Non-custodial: Non-custodial
+Custodial staking: Custodial staking
+Non-custodial staking: Non-custodial staking
+Launchpad: Launchpad
+Grid trading: Grid trading
+
+# Compliance & Security
+KYC: KYC
+AML: AML
+Withdrawal: Withdrawal
+Deposit: Deposit
